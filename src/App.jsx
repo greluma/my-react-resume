@@ -1,5 +1,8 @@
-function App() {
-  return <h1>React Resume</h1>
-}
+import { CustomRouterProvider } from "./topics/react-router/router"
 
+
+function App() {
+  // * reactRouter
+  return <CustomRouterProvider />
+}
 export default App
